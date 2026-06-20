@@ -4,6 +4,6 @@ if __name__ == "__main__":
     print("Starting Drowsiness Detection System...")
 
     try:
-        run_detector()
+        run()
     except Exception as e:
         print("Error:", e)
